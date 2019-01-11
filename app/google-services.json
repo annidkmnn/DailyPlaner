@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "691375830260",
+    "firebase_url": "https://dailyplaner-copy-3.firebaseio.com",
+    "project_id": "dailyplaner-copy-3",
+    "storage_bucket": "dailyplaner-copy-3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691375830260:android:d153f633eb69999f",
+        "android_client_info": {
+          "package_name": "com.example.annikadiekmann.game_backlog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691375830260-ct33f2n4nd6lv034e1urn3mtcc5hgep7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.annikadiekmann.game_backlog",
+            "certificate_hash": "887d2304aa56aede0de076ad4deede04bf0473e2"
+          }
+        },
+        {
+          "client_id": "691375830260-11675u8qegsgao94nfim1of1oqf9vdoe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZPou9TeXhXGa884Gfka1Wi8zX-iGBsjg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691375830260-11675u8qegsgao94nfim1of1oqf9vdoe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

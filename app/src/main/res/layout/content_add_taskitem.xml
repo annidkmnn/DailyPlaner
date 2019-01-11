@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AddTaskItem"
+    tools:showIn="@layout/activity_add_taskitem"
+    android:background="@color/colorBackgroundDark">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/add_taskText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:background="@android:color/white"
+            android:ems="10"
+            android:hint="@string/task"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:textColor="#666666"
+            android:textColorHint="#CCCCCC"
+            android:importantForAutofill="no"
+            android:inputType="" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#D2D2D2" />
+
+        <EditText
+            android:id="@+id/add_taskTimeStart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:background="@android:color/white"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="@string/timeStart"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:textColor="#666666"
+            android:textColorHint="#CCCCCC"
+            android:importantForAutofill="no"
+            android:inputType="" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#D2D2D2" />
+
+        <EditText
+            android:id="@+id/add_taskTimeEnd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:background="@android:color/white"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="@string/timeEnd"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:textColor="#666666"
+            android:textColorHint="#CCCCCC"
+            android:importantForAutofill="no"
+            android:inputType="" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Daily Planer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_game">Add Task</string>
+    <string name="title_activity_edit_game">Edit Task</string>
+    <string name="title_activity_history_game">Task History</string>
+    <string name="task">Task</string>
+    <string name="timeStart">Start time</string>
+    <string name="timeEnd">End time</string>
+    <string name="done">Done</string>
+    <string name="minus">-</string>
+    <string name="task_time_here">Task Time here</string>
+    <string name="today">Today</string>
+</resources>
